@@ -16,7 +16,7 @@ terraform {
 variable "bucket_name" {
   type = map(string)
   default = {
-    dev  = "my-dev-bucket"
+    dev  = "home-bucket09"
     prod = "my-prod-bucket"
   }
 }
